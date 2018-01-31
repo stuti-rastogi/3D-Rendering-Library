@@ -1,0 +1,25 @@
+HW6 - README FILE
+
+Name: Stuti Rastogi
+ID: 8006687469
+Email: srrastog@usc.edu
+Date: 10/31/17
+
+Runs in Release Mode
+
+Tried creating 6 separate renderers, did not work for transformations as they were called only on original renderer.
+
+Used the following approach:
+- Only one renderer
+- Array of offsetX and offsetY set using putAttribute
+- Created new pixel buffer in application to accumulate all the values
+- Ran a loop in render method and each iteration added the renderer pixel buffer values to application pixel buffer using weights
+- Copied filtered final value from application pixel buffer to renderer pixel buffer to use flush functions
+
+
+
+
+
+
+
+
